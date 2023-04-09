@@ -4,6 +4,13 @@ h1{
     color: white;
     padding: 20px;
     margin: 20px;
+    text-align: center;
    
   
+}
+p{
+    background-color: black;
+    color: white;
+    width:300px;
+    height: 300px;
 }
