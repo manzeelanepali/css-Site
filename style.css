@@ -1,16 +1,60 @@
-h1{
-    border: 1px solid black;
-    background-color:red;
-    color: white;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-   
-  
+body{
+    margin: 0;
+    background-color:white;
 }
-p{
-    background-color: black;
+
+header{
+    background-color: green;
+    padding: 20px;
+    text-align: center;
     color: white;
-    width:300px;
-    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+nav{
+    overflow: hidden;
+    background-color: rgb(90, 40, 40);
+}
+nav a{
+    float: left;
+    color: white;
+    padding: 20px 10px 11px 14px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    background-color: black;
+    color:blue;
+
+}
+
+.column{
+    float: left;
+    padding: 0px;
+}
+
+.column.side{
+
+    width: 10%;
+
+}
+
+.column.middle{
+    width :50%
+}
+
+@media screen and (max-width:617px) {
+    .column.side,.column.middle{
+        width:100%
+    }
+    
+}
+
+footer{
+    background-color: green;
+    padding: 20px;
+    text-align: center;
+    color: white;
 }
